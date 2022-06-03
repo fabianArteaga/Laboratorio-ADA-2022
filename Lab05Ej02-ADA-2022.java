@@ -29,7 +29,7 @@ public class BubbleSort {
         ejecución de BubbleSort*/
         long fin = System.nanoTime();
         
-        System.out.println("El tiempo de ejecución de BubbleSort: "+ (fin-inicio)+" milisegundos");
+        System.out.println("El tiempo de ejecución de BubbleSort: "+ (fin-inicio)+" nanosegundos");
         
         bubble.printArray(arr);
     }
